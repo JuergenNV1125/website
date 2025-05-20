@@ -8,6 +8,8 @@
  * But new links are no longer generated after Stripe API changes made it difficult to add
  * redownload links to the receipt emails.
  *
+ * 
+ * * Sets payment cookie from stripe charge
  */
 
 require_once __DIR__ . '/../_backend/bootstrap.php';
